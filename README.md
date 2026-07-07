@@ -129,7 +129,7 @@ python scripts/run_hetionet_benchmark.py --P 200
 Expected runtime: ~2–6 hours depending on metapaths tested.
 
 ## Citation
-
+```
 @article{Ghosh2026HetNetEX,
 	author = {Ghosh, Tusharkanti and Gillenwater, Lucas A. and Greene, Casey S. and Costello, James C.},
 	title = {HetNetEX: Exact Asymptotic Inference in Heterogeneous Biomedical Knowledge Graphs},
@@ -140,6 +140,7 @@ Expected runtime: ~2–6 hours depending on metapaths tested.
 	URL = {https://www.biorxiv.org/content/10.64898/2026.07.05.736581},
 	eprint = {https://www.biorxiv.org/content/early/2026/07/06/2026.07.05.736581.full.pdf}
 }
+```
 
 ## Data Sources
 
