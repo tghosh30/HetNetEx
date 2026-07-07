@@ -131,7 +131,7 @@ Expected runtime: ~2–6 hours depending on metapaths tested.
 ## Citation
 
 ```bibtex
-@article {Ghosh2026.07.05.736581,
+@article{Ghosh2026.07.05.736581,
 	author = {Ghosh, Tusharkanti and GILLENWATER, LUCAS A. and Greene, Casey S and Costello, James C},
 	title = {HetNetEX: Exact Asymptotic Inference in Heterogeneous Biomedical Knowledge Graphs},
 	elocation-id = {2026.07.05.736581},
