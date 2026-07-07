@@ -130,20 +130,16 @@ Expected runtime: ~2–6 hours depending on metapaths tested.
 
 ## Citation
 
-```bibtex
-@article{Ghosh2026.07.05.736581,
-	author = {Ghosh, Tusharkanti and GILLENWATER, LUCAS A. and Greene, Casey S and Costello, James C},
+@article{Ghosh2026HetNetEX,
+	author = {Ghosh, Tusharkanti and Gillenwater, Lucas A. and Greene, Casey S. and Costello, James C.},
 	title = {HetNetEX: Exact Asymptotic Inference in Heterogeneous Biomedical Knowledge Graphs},
-	elocation-id = {2026.07.05.736581},
 	year = {2026},
 	doi = {10.64898/2026.07.05.736581},
 	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {Heterogeneous biomedical knowledge networks (hetnets) integrate disparate data types, drugs, genes, diseases, and pathways, across independent sources; Hetionet (https://het.io) is a widely used example. A standard approach for assessing connectivity significance is XSwap, which permutes the hetnet P times and fits a gamma-hurdle null model to the degree-weighted path count (DWPC), pooling permuted values across pairs with matching source and target degrees to increase the effective sample size. This permutation approach has been highly successful in practice, but it faces four practical constraints in large graphs: (1) a finite resolution for the smallest reportable p-values, (2) computational cost that grows prohibitive at path lengths L >= 4 or 5, (3) a variance model (Var ∝ mu2) that departs from the configuration-model form (1+κ)\μ, and (4) O(P {\textperiodcentered} 10m {\textperiodcentered} L) runtime. To complement this approach, we present HetNetEX (Heterogeneous Network EXact inference), which computes the null DWPC distribution analytically from degree sequences using the configuration model in O(Ln) time. In simulations at P = 200 across L = 1-4, HetNetEX achieves Spearman rho \&gt; 0.96 concordance with XSwap rankings while being \&gt;10,000 times faster and providing analytical p-values without a resolution ceiling. High-degree pairs show larger XSwap sampling error than low-degree pairs, reflecting the finite-sample nature of permutation that analytical computation avoids.Competing Interest StatementThe authors have declared no competing interest.NIH/NICHD, R01 HD109765},
-	URL = {https://www.biorxiv.org/content/early/2026/07/06/2026.07.05.736581},
-	eprint = {https://www.biorxiv.org/content/early/2026/07/06/2026.07.05.736581.full.pdf},
-	journal = {bioRxiv}
+	journal = {bioRxiv},
+	URL = {https://www.biorxiv.org/content/10.64898/2026.07.05.736581},
+	eprint = {https://www.biorxiv.org/content/early/2026/07/06/2026.07.05.736581.full.pdf}
 }
-```
 
 ## Data Sources
 
