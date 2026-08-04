@@ -157,3 +157,11 @@ MIT License. See [LICENSE](LICENSE) for details.
 Tusharkanti Ghosh — tusharkanti.ghosh@cuanschutz.edu
 Department of Biostatistics and Informatics, Colorado School of Public Health
 University of Colorado Anschutz Medical Campus
+
+## Extensions
+
+[HetNetEX-MD](https://github.com/tghosh30/HetNetEX-MD) extends this framework
+to Multi-DWPC analysis, providing closed-form replacements for both the
+gene-set resampling null (exact, via hypergeometric convolution) and the
+network-permutation null (asymptotic, via the max-entropy soft configuration
+model).
